@@ -1,9 +1,11 @@
 # logicshell
-Logic circuits created using C and Bash
+![BinaryTree](logo.png)
 
 ## What is logicshell?
 
-Logicshell is a project that grew out of a conversation on logic circuits with a friend. It all started when we wondered if it would be possible to simulate a simple logic circuit using operating system tools only.
+Logicshell is logic circuits created using C and Bash
+
+This is a project that grew out of a conversation on logic circuits with a friend. It all started when we wondered if it would be possible to simulate a simple logic circuit using operating system tools only.
 
 ## How can we build this?
 
