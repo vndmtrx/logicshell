@@ -1,5 +1,5 @@
 # logicshell
-![BinaryTree](logo.png)
+![TransistorShell](transistor.png)
 
 ## What is logicshell?
 
