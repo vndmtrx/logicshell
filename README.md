@@ -16,3 +16,7 @@ In our project we use a unix pipe as a `wire`, that is, a conductor with parasit
 ## Transistors
 
 Coming soon.
+
+## Resistors
+
+Coming soon too.
