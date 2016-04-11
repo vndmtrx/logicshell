@@ -11,6 +11,8 @@ First, we must view the most fundamental features of our logic circuit: **electr
 
 In our project we use a unix pipe as a `wire`, that is, a conductor with parasitic capacitance. If the `wire` is connected to `Vss`, its pipe buffer in kernel space quickly fills up with null-bytes, and the `wire` acts like a negatively charged metal plate. If it is connected to `Vdd`, the pipe buffer is drained, and the `wire` acts like a positively charged metal plate.
 
+Because of the directionality of the pipes, where you write in a tip and read in the other, we can consider that the `wire` will always be equivalent to a *diode*, allowing the passage of the logic signal in one direction only.
+
 `Wires` may thus carry *logic signals*: A `wire` that is filled with null-bytes corresponds to a *logic zero*, and a `wire` that is completely empty corresponds to a *logic one*. A `wire` that contains some null-bytes, but is neither full nor empty, corresponds to an undefined voltage, and will act as a *logic one* or a *logic zero* depending upon how we measure it.
 
 ## Transistors
